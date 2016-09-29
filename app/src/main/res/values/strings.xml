@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="heading">To Do List</string>
+    <string name="task_title">Input Task Title</string>
+    <string name="task_description">Input Task Description</string>
+    <string name="add_button">Add</string>
+    <string name="task_title_hint">Input Task Title</string>
+    <string name="task_description_hint">Input Task Description</string>
+    <string name="task_item">Task Item</string>
+    <string name="description_item">Description Item</string>
+</resources>
