@@ -8,4 +8,5 @@
     <string name="task_description_hint">Input Task Description</string>
     <string name="task_item">Task Item</string>
     <string name="description_item">Description Item</string>
+    <string name="task_checkbox">CheckBox</string>
 </resources>
