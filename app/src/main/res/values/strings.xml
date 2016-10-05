@@ -9,4 +9,6 @@
     <string name="task_item">Task Item</string>
     <string name="description_item">Description Item</string>
     <string name="task_checkbox">CheckBox</string>
+    <string name="app_description">If there is no text in the Task Title as well as Description fields,
+        the Add button will write your list to a text file.</string>
 </resources>

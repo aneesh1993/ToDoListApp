@@ -19,15 +19,24 @@
         android:textColor="#FF1010"
         android:id="@+id/heading" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_description"
+        android:textSize="17sp"
+        android:layout_marginTop="5sp"
+        android:textColor="#0da51f" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/task_title"
         android:textSize="20sp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="10sp"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
-        android:hint="@string/task_title_hint" />
+        android:hint="@string/task_title_hint"
+        android:textColor="#FF1010" />
 
     <EditText
         android:layout_width="match_parent"
@@ -37,14 +46,16 @@
         android:layout_marginTop="10sp"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
-        android:hint="@string/task_description_hint" />
+        android:hint="@string/task_description_hint"
+        android:textColor="#1010FF" />
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/listView"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:layout_marginTop="10sp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -55,6 +66,7 @@
         android:id="@+id/add_button"
         android:layout_gravity="right"
         android:gravity="center"
-        android:onClick="addItem" />
+        android:onClick="addItem"
+        android:padding="18sp" />
 
 </LinearLayout>
